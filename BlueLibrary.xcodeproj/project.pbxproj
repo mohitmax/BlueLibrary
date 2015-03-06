@@ -22,6 +22,7 @@
 		97CE95701AAA43910058AA2E /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE956F1AAA43910058AA2E /* AlbumView.m */; };
 		97CE95761AAA48B10058AA2E /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE95751AAA48B10058AA2E /* LibraryAPI.m */; };
 		97CE95791AAA49AA0058AA2E /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE95781AAA49AA0058AA2E /* PersistencyManager.m */; };
+		97CE957D1AAA587B0058AA2E /* Album+TableRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE957C1AAA587B0058AA2E /* Album+TableRepresentation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		97CE95751AAA48B10058AA2E /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
 		97CE95771AAA49AA0058AA2E /* PersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistencyManager.h; sourceTree = "<group>"; };
 		97CE95781AAA49AA0058AA2E /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistencyManager.m; sourceTree = "<group>"; };
+		97CE957B1AAA587B0058AA2E /* Album+TableRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Album+TableRepresentation.h"; sourceTree = "<group>"; };
+		97CE957C1AAA587B0058AA2E /* Album+TableRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Album+TableRepresentation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 		450EECC517A9B03A00957F62 /* BlueLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				97CE957A1AAA57B40058AA2E /* Category */,
 				450EECE217A9B04400957F62 /* API */,
 				97CE95731AAA45E00058AA2E /* Controller */,
 				97CE95721AAA45D80058AA2E /* View */,
@@ -159,6 +163,15 @@
 				450EECD817A9B03A00957F62 /* ViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		97CE957A1AAA57B40058AA2E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				97CE957B1AAA587B0058AA2E /* Album+TableRepresentation.h */,
+				97CE957C1AAA587B0058AA2E /* Album+TableRepresentation.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +250,7 @@
 				97CE95791AAA49AA0058AA2E /* PersistencyManager.m in Sources */,
 				97CE95761AAA48B10058AA2E /* LibraryAPI.m in Sources */,
 				450EECD917A9B03A00957F62 /* ViewController.m in Sources */,
+				97CE957D1AAA587B0058AA2E /* Album+TableRepresentation.m in Sources */,
 				97CE956D1AAA42600058AA2E /* Album.m in Sources */,
 				450EECE517A9B05E00957F62 /* HTTPClient.m in Sources */,
 			);
