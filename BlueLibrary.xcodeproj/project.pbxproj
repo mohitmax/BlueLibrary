@@ -23,6 +23,7 @@
 		97CE95761AAA48B10058AA2E /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE95751AAA48B10058AA2E /* LibraryAPI.m */; };
 		97CE95791AAA49AA0058AA2E /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE95781AAA49AA0058AA2E /* PersistencyManager.m */; };
 		97CE957D1AAA587B0058AA2E /* Album+TableRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CE957C1AAA587B0058AA2E /* Album+TableRepresentation.m */; };
+		97EE77611AB37FBE000923FE /* HorizontalScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EE77601AB37FBE000923FE /* HorizontalScroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,8 @@
 		97CE95781AAA49AA0058AA2E /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistencyManager.m; sourceTree = "<group>"; };
 		97CE957B1AAA587B0058AA2E /* Album+TableRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Album+TableRepresentation.h"; sourceTree = "<group>"; };
 		97CE957C1AAA587B0058AA2E /* Album+TableRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Album+TableRepresentation.m"; sourceTree = "<group>"; };
+		97EE775F1AB37FBE000923FE /* HorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScroller.h; sourceTree = "<group>"; };
+		97EE77601AB37FBE000923FE /* HorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,8 @@
 			children = (
 				97CE956E1AAA43910058AA2E /* AlbumView.h */,
 				97CE956F1AAA43910058AA2E /* AlbumView.m */,
+				97EE775F1AB37FBE000923FE /* HorizontalScroller.h */,
+				97EE77601AB37FBE000923FE /* HorizontalScroller.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 				97CE95701AAA43910058AA2E /* AlbumView.m in Sources */,
 				97CE95791AAA49AA0058AA2E /* PersistencyManager.m in Sources */,
 				97CE95761AAA48B10058AA2E /* LibraryAPI.m in Sources */,
+				97EE77611AB37FBE000923FE /* HorizontalScroller.m in Sources */,
 				450EECD917A9B03A00957F62 /* ViewController.m in Sources */,
 				97CE957D1AAA587B0058AA2E /* Album+TableRepresentation.m in Sources */,
 				97CE956D1AAA42600058AA2E /* Album.m in Sources */,
